@@ -1,6 +1,6 @@
 pgsql:
   jdbc:
-    url: jdbc:postgresql://172.30.76.66:5432/postgres
+    url: jdbc:postgresql://172.30.84.214:5432/postgres
     username: postgres
     password: postgres
 jpa:
