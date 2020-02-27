@@ -1,0 +1,18 @@
+pgsql:
+  jdbc:
+    url: jdbc:postgresql://172.30.76.66:5432/postgres
+    username: postgres
+    password: postgres
+jpa:
+  show-sql: true
+  generate-ddl: false
+  hibernate-ddl-auto: create # Hibernate ddl auto (create, create-drop, validate, update)
+
+authorize:
+  base-url: http://authorizeservice.openshift.container.data.go.th/api/authorize
+logging:
+  level:
+    th.or.dga.service: debug
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: debug
+    root: info
